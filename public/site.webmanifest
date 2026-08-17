@@ -1,0 +1,17 @@
+{
+  "name": "Dr. Phani Babu — Denteazee Dental Clinic",
+  "short_name": "Dr. Phani Babu",
+  "description": "Cosmetic and implant dentistry at Denteazee Dental Clinic.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

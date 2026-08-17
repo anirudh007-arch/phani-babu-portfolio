@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#050505" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#FAF9F7" media="(prefers-color-scheme: light)" />
+
+    <!--
+      ─────────────────────────────────────────────────────────────────────
+      Replace every occurrence of https://drphanibabu.com with the real
+      production domain before launch, and verify the credentials/addresses
+      below against source documents. See CONTENT-CHECKLIST.md.
+      ─────────────────────────────────────────────────────────────────────
+    -->
+    <title>Dr. Phani Babu — Cosmetic &amp; Implant Dentist | Denteazee Dental Clinic</title>
+    <meta
+      name="description"
+      content="Dr. Phani Babu, Founder and Chief Dental Surgeon at Denteazee Dental Clinic. Cosmetic dentistry, dental implants and digital smile design delivered with precision, calm and care."
+    />
+    <link rel="canonical" href="https://drphanibabu.com/" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Dr. Phani Babu — Denteazee Dental Clinic" />
+    <meta property="og:title" content="Dr. Phani Babu — Cosmetic &amp; Implant Dentist" />
+    <meta
+      property="og:description"
+      content="Designing confident smiles, one patient at a time. Cosmetic dentistry, dental implants and digital smile design at Denteazee Dental Clinic."
+    />
+    <meta property="og:url" content="https://drphanibabu.com/" />
+    <meta property="og:image" content="https://drphanibabu.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Dr. Phani Babu, Chief Dental Surgeon at Denteazee Dental Clinic" />
+    <meta property="og:locale" content="en_IN" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dr. Phani Babu — Cosmetic &amp; Implant Dentist" />
+    <meta
+      name="twitter:description"
+      content="Designing confident smiles, one patient at a time. Denteazee Dental Clinic."
+    />
+    <meta name="twitter:image" content="https://drphanibabu.com/og-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Add /apple-touch-icon.png (180×180) and re-enable this before launch:
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+      <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" />
+    </noscript>
+
+    <script>
+      // Applied before first paint so the correct theme is painted immediately
+      // and the preloader never flashes the wrong background.
+      (function () {
+        try {
+          var stored = localStorage.getItem('dpb-theme');
+          var prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+          var theme = stored || (prefersLight ? 'light' : 'dark');
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+          document.documentElement.classList.toggle('light', theme === 'light');
+          document.documentElement.style.colorScheme = theme;
+        } catch (e) {
+          /* private mode — fall back to the dark default already on <html> */
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Physician",
+            "@id": "https://drphanibabu.com/#doctor",
+            "name": "Dr. Phani Babu",
+            "givenName": "Phani Babu",
+            "honorificPrefix": "Dr.",
+            "jobTitle": "Founder & Chief Dental Surgeon",
+            "medicalSpecialty": "Dentistry",
+            "url": "https://drphanibabu.com/",
+            "image": "https://drphanibabu.com/images/dr-phani-babu-portrait.jpg",
+            "worksFor": { "@id": "https://drphanibabu.com/#clinic" },
+            "knowsAbout": [
+              "Cosmetic Dentistry",
+              "Dental Implantology",
+              "Digital Smile Design",
+              "Endodontics",
+              "Laser Dentistry",
+              "Orthodontics",
+              "Preventive Dentistry"
+            ]
+          },
+          {
+            "@type": ["Dentist", "MedicalClinic"],
+            "@id": "https://drphanibabu.com/#clinic",
+            "name": "Denteazee Dental Clinic",
+            "url": "https://drphanibabu.com/",
+            "image": "https://drphanibabu.com/images/clinic-reception.jpg",
+            "telephone": "+91-00000-00000",
+            "priceRange": "$$",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Denteazee Dental Clinic",
+              "addressLocality": "Hyderabad",
+              "addressRegion": "Telangana",
+              "postalCode": "500000",
+              "addressCountry": "IN"
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "09:30",
+                "closes": "20:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Sunday",
+                "opens": "10:00",
+                "closes": "14:00"
+              }
+            ],
+            "employee": { "@id": "https://drphanibabu.com/#doctor" },
+            "availableService": [
+              { "@type": "MedicalProcedure", "name": "Cosmetic Dentistry" },
+              { "@type": "MedicalProcedure", "name": "Dental Implants" },
+              { "@type": "MedicalProcedure", "name": "Root Canal Treatment" },
+              { "@type": "MedicalProcedure", "name": "Digital Smile Design" },
+              { "@type": "MedicalProcedure", "name": "Laser Dentistry" },
+              { "@type": "MedicalProcedure", "name": "Orthodontics" },
+              { "@type": "MedicalProcedure", "name": "Preventive Dentistry" }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://drphanibabu.com/#website",
+            "url": "https://drphanibabu.com/",
+            "name": "Dr. Phani Babu",
+            "publisher": { "@id": "https://drphanibabu.com/#clinic" },
+            "inLanguage": "en-IN"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
