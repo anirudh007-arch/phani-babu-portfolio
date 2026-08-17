@@ -18,14 +18,23 @@ unverifiable entry is always a safe option.
 
 ## 1. Blocking — must be replaced
 
-- [ ] **Phone number** — currently `+91 00000 00000` (`contact.phone`,
-      `contact.phoneHref`, and the `telephone` field in `index.html` schema)
-- [ ] **WhatsApp number** — `contact.whatsappHref` (appears twice in the URL)
-- [ ] **Email** — `care@denteazee.com` (`contact.email`, `contact.emailHref`)
-- [ ] **Street address** — `contact.addressLines` and the `PostalAddress` block
-      in `index.html`. Currently a placeholder Jubilee Hills address.
-- [ ] **Google Maps** — `contact.mapsUrl` and `contact.mapsEmbed` currently
-      point at a general Hyderabad area, not the clinic
+- [x] **Phone number** — updated to `+91 95001 35566`, sourced from
+      denteazeedentalclinic.in and cross-checked against the address on
+      indiadental.co.in. Still worth one direct confirmation call.
+- [ ] **WhatsApp number** — set to the same number as the phone above
+      (`contact.whatsappHref`); confirm WhatsApp is actually active on it.
+- [ ] **Email** — still the placeholder `care@denteazee.com`
+      (`contact.email`, `contact.emailHref`). The clinic's own site lists
+      `drphanibabu@gmail.com` — decide whether to use that or a dedicated
+      clinic address before launch.
+- [x] **Street address** — updated to `25, Besant Avenue Road, Opposite
+      Hotel Esthell, Adyar, Chennai, Tamil Nadu 600020`, in
+      `contact.addressLines` and the `PostalAddress` block in `index.html`.
+      This corrected the clinic's **city** from the placeholder Hyderabad —
+      check every remaining page for a Hyderabad reference if more content
+      is added later.
+- [x] **Google Maps** — `contact.mapsUrl` and `contact.mapsEmbed` now query
+      the real address above.
 - [ ] **Domain** — replace every `https://drphanibabu.com` in `index.html`,
       `public/robots.txt` and `public/sitemap.xml`
 - [ ] **Consulting hours** — `contact.hours` and the
@@ -45,7 +54,9 @@ to be challenged on.
 - [ ] 5,200+ dental implants
 - [ ] 11 certifications
 - [ ] 6 awards & honours
-- [ ] `hero.trustline` — "Trusted by families across Hyderabad for over a decade"
+- [x] `hero.trustline` — city corrected to Chennai to match the real address;
+      the "over a decade" claim and the review profile it references still
+      need confirming
 
 ## 3. Credentials — each needs a certificate, DOI or invitation on file
 

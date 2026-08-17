@@ -102,7 +102,7 @@ export const site = {
       'Dentistry, practised slowly and precisely. Every treatment at Denteazee begins with an hour of listening — because the right plan is never the fastest one. What follows is measured, evidence-led work, delivered so gently that most patients tell us they had forgotten to be afraid.',
     primaryCta: 'Book a Consultation',
     // VERIFY — replace with the clinic's actual review profile, or remove.
-    trustline: 'Trusted by families across Hyderabad for over a decade.',
+    trustline: 'Trusted by families across Chennai for over a decade.',
   },
 
   /** VERIFY — every number below must be reconcilable to clinic records. */
@@ -499,21 +499,22 @@ export const site = {
     ],
   },
 
-  /** VERIFY — replace all contact details with the clinic's real ones. */
+  /** VERIFY — phone/address sourced from denteazeedentalclinic.in; confirm
+   *  email and hours with the clinic directly before launch. */
   contact: {
     eyebrow: 'Appointments',
     heading: 'Begin with a conversation.',
     lead: 'A consultation costs nothing but an hour, and commits you to nothing at all.',
-    phone: '+91 00000 00000',
-    phoneHref: 'tel:+910000000000',
+    phone: '+91 95001 35566',
+    phoneHref: 'tel:+919500135566',
     whatsapp: 'Message on WhatsApp',
-    whatsappHref: 'https://wa.me/910000000000?text=Hello%2C%20I%27d%20like%20to%20book%20a%20consultation%20at%20Denteazee.',
+    whatsappHref: 'https://wa.me/919500135566?text=Hello%2C%20I%27d%20like%20to%20book%20a%20consultation%20at%20Denteazee.',
     email: 'care@denteazee.com',
     emailHref: 'mailto:care@denteazee.com',
-    addressLines: ['Denteazee Dental Clinic', 'Road No. 00, Jubilee Hills', 'Hyderabad, Telangana 500033'],
-    mapsUrl: 'https://maps.google.com/?q=Denteazee+Dental+Clinic+Hyderabad',
+    addressLines: ['Denteazee Dental Clinic', '25, Besant Avenue Road', 'Opposite Hotel Esthell, Adyar', 'Chennai, Tamil Nadu 600020'],
+    mapsUrl: 'https://maps.google.com/?q=Denteazee+Dental+Clinic+25+Besant+Avenue+Road+Adyar+Chennai+600020',
     mapsEmbed:
-      'https://www.google.com/maps?q=Jubilee+Hills,+Hyderabad,+Telangana&output=embed',
+      'https://www.google.com/maps?q=25+Besant+Avenue+Road,+Adyar,+Chennai,+Tamil+Nadu+600020&output=embed',
     hours: [
       { days: 'Monday – Saturday', time: '9:30 AM – 8:00 PM' },
       { days: 'Sunday', time: '10:00 AM – 2:00 PM' },
@@ -525,7 +526,7 @@ export const site = {
     { label: 'Instagram', href: 'https://instagram.com/denteazee' },
     { label: 'YouTube', href: 'https://youtube.com/@denteazee' },
     { label: 'LinkedIn', href: 'https://linkedin.com/in/drphanibabu' },
-    { label: 'Google', href: 'https://maps.google.com/?q=Denteazee+Dental+Clinic+Hyderabad' },
+    { label: 'Google', href: 'https://maps.google.com/?q=Denteazee+Dental+Clinic+25+Besant+Avenue+Road+Adyar+Chennai+600020' },
   ],
 
   footer: {
