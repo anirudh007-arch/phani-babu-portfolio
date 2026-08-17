@@ -79,7 +79,6 @@ src/
   components/
     Preloader.tsx        The 1.5s entrance
     Navigation.tsx       Floating glass bar, shrinks on scroll, mobile sheet
-    BeforeAfter.tsx      Comparator (see accessibility note below)
     ExpertiseGlyph.tsx   Seven generated SVG line-art motifs
     ui/                  Button, Modal, SmartImage, TextReveal, SectionHeading,
                          Magnetic, Cursor, ScrollProgress, Atmosphere,
@@ -108,9 +107,6 @@ Framer does not own, and Lenis simply not starting.
 ## Accessibility
 
 - Skip link; visible focus ring on every interactive element.
-- The before/after comparator is a real `<input type="range">` overlaid on the
-  image — keyboard-operable and correctly announced. A div with pointer
-  handlers would look identical and be unusable without a mouse.
 - Modals trap Tab, restore focus to the trigger on close, and exit on Escape.
 - Accordions use `aria-expanded` / `aria-controls` with `role="region"` panels.
 - Anchor navigation moves keyboard focus to the target section, not just the

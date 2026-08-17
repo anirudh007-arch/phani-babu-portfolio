@@ -144,21 +144,6 @@ export function Hero() {
                   />
                 </Button>
               </Magnetic>
-
-              <Magnetic strength={0.18}>
-                <Button
-                  as="a"
-                  href="#gallery"
-                  variant="secondary"
-                  size="lg"
-                  onClick={(e: React.MouseEvent) => {
-                    e.preventDefault();
-                    scrollToSection('#gallery');
-                  }}
-                >
-                  {site.hero.secondaryCta}
-                </Button>
-              </Magnetic>
             </motion.div>
 
             <motion.div

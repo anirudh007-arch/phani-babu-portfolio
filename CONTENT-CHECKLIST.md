@@ -74,20 +74,12 @@ evidence.
 - [ ] Add caption files for any video published (see the note in
       `src/sections/Testimonials.tsx`)
 
-## 5. Smile gallery — the highest-risk section
+## 5. Smile gallery — removed
 
-`site.gallery.items`. Six cases are described, with patient quotes.
-
-- [ ] Written, **treatment-specific** consent on file for every image
-      published. Generic intake-form consent is not sufficient.
-- [ ] Before and after shot under identical conditions — same lens, distance,
-      angle, lighting, retractor position
-- [ ] No retouching of either frame
-- [ ] **No stock or AI-generated imagery, ever.** Presenting either as a real
-      clinical outcome is misrepresentation.
-- [ ] Case descriptions, durations and patient descriptors match the actual
-      records
-- [ ] Patient quotes are real and consented to
+The before/after smile gallery section has been removed from the site
+entirely (component, nav link, hero CTA, and content data). If it's added
+back later, its consent and photography requirements were the highest-risk
+item on this list — re-review them before shipping any before/after imagery.
 
 ## 6. Biography and clinical claims
 

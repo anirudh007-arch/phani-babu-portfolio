@@ -13,7 +13,6 @@ import { Hero } from '@/sections/Hero';
 import { Credentials } from '@/sections/Credentials';
 import { About } from '@/sections/About';
 import { Expertise } from '@/sections/Expertise';
-import { SmileGallery } from '@/sections/SmileGallery';
 import { Testimonials } from '@/sections/Testimonials';
 import { Clinic } from '@/sections/Clinic';
 import { Process } from '@/sections/Process';
@@ -51,7 +50,6 @@ export default function App() {
         <Credentials />
         <About />
         <Expertise />
-        <SmileGallery />
         <Testimonials />
         <Clinic />
         <Process />

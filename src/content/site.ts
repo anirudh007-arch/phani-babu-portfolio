@@ -45,21 +45,6 @@ export type IconName =
   | 'align-center-horizontal'
   | 'shield-check';
 
-export type Transformation = {
-  id: string;
-  category: TransformationCategory;
-  title: string;
-  summary: string;
-  treatment: string;
-  duration: string;
-  before: string;
-  after: string;
-  patient: string;
-  quote: string;
-};
-
-export type TransformationCategory = 'Smile Design' | 'Implants' | 'Alignment' | 'Restorative';
-
 export type Testimonial = {
   id: string;
   name: string;
@@ -92,7 +77,6 @@ export const site = {
   nav: [
     { label: 'About', href: '#about' },
     { label: 'Expertise', href: '#expertise' },
-    { label: 'Smile Gallery', href: '#gallery' },
     { label: 'Testimonials', href: '#testimonials' },
     { label: 'Clinic', href: '#clinic' },
     { label: 'Contact', href: '#contact' },
@@ -107,7 +91,6 @@ export const site = {
     subheading:
       'Dentistry, practised slowly and precisely. Every treatment at Denteazee begins with an hour of listening — because the right plan is never the fastest one. What follows is measured, evidence-led work, delivered so gently that most patients tell us they had forgotten to be afraid.',
     primaryCta: 'Book a Consultation',
-    secondaryCta: 'View Smile Transformations',
     // VERIFY — replace with the clinic's actual review profile, or remove.
     trustline: 'Trusted by families across Hyderabad for over a decade.',
   },
@@ -220,99 +203,6 @@ export const site = {
       cta: 'Schedule a check-up',
     },
   ] satisfies Expertise[],
-
-  gallery: {
-    eyebrow: 'Smile Gallery',
-    heading: 'Work you can look at closely.',
-    lead: 'Unretouched clinical photography, shot in the same light and the same position before and after. Drag the handle to compare.',
-    /**
-     * ⚠️  BEFORE/AFTER IMAGERY IS REGULATED.
-     * Only publish images with written, treatment-specific patient consent on
-     * file. Do not retouch. Do not use stock or AI-generated imagery here —
-     * presenting either as a real clinical outcome is misrepresentation.
-     * Image files go in /public/images/gallery/.
-     */
-    items: [
-      {
-        id: 'g1',
-        category: 'Smile Design',
-        title: 'Full ceramic veneer rehabilitation',
-        summary:
-          'Years of tetracycline staining and worn edges, rebuilt with ten minimal-prep lithium disilicate veneers designed to match the patient\'s original tooth shape.',
-        treatment: 'Digital Smile Design · 10 veneers',
-        duration: '3 weeks',
-        before: '/images/gallery/case-01-before.jpg',
-        after: '/images/gallery/case-01-after.jpg',
-        patient: 'Software architect, 34',
-        quote: 'I had stopped closing my mouth in photographs. That is the part that changed.',
-      },
-      {
-        id: 'g2',
-        category: 'Implants',
-        title: 'Single anterior implant',
-        summary:
-          'A front tooth lost to trauma, replaced with a guided implant and a zirconia crown shade-matched to the neighbouring tooth under three lighting conditions.',
-        treatment: 'Guided implant · Zirconia crown',
-        duration: '4 months',
-        before: '/images/gallery/case-02-before.jpg',
-        after: '/images/gallery/case-02-after.jpg',
-        patient: 'Teacher, 41',
-        quote: 'My daughter cannot tell which one it is. Neither can I, most days.',
-      },
-      {
-        id: 'g3',
-        category: 'Alignment',
-        title: 'Adult clear aligner correction',
-        summary:
-          'Crowding and a deep bite corrected over fourteen months with clear aligners, finished with conservative edge bonding rather than veneers.',
-        treatment: 'Clear aligners · Edge bonding',
-        duration: '14 months',
-        before: '/images/gallery/case-03-before.jpg',
-        after: '/images/gallery/case-03-after.jpg',
-        patient: 'Advocate, 29',
-        quote: 'Nobody at work noticed I was wearing anything. They only noticed at the end.',
-      },
-      {
-        id: 'g4',
-        category: 'Implants',
-        title: 'Full-arch fixed rehabilitation',
-        summary:
-          'A failing upper dentition replaced with a fixed, screw-retained full-arch prosthesis on six implants. Provisional teeth were fitted the same day.',
-        treatment: 'Six implants · Fixed full arch',
-        duration: '6 months',
-        before: '/images/gallery/case-04-before.jpg',
-        after: '/images/gallery/case-04-after.jpg',
-        patient: 'Retired officer, 63',
-        quote: 'I ate an apple for the first time in nine years. I am aware of how that sounds.',
-      },
-      {
-        id: 'g5',
-        category: 'Restorative',
-        title: 'Worn dentition rebuild',
-        summary:
-          'Severe attrition from long-term bruxism restored to the correct vertical dimension with monolithic zirconia, protected by a night guard.',
-        treatment: 'Full-mouth rehabilitation',
-        duration: '10 weeks',
-        before: '/images/gallery/case-05-before.jpg',
-        after: '/images/gallery/case-05-after.jpg',
-        patient: 'Restaurateur, 47',
-        quote: 'The headaches went first. I did not know those were related.',
-      },
-      {
-        id: 'g6',
-        category: 'Smile Design',
-        title: 'Gum contouring and bonding',
-        summary:
-          'An uneven gumline recontoured with a soft-tissue laser and finished with composite bonding — no ceramics, and no tooth structure removed.',
-        treatment: 'Laser contouring · Composite bonding',
-        duration: '2 visits',
-        before: '/images/gallery/case-06-before.jpg',
-        after: '/images/gallery/case-06-after.jpg',
-        patient: 'Postgraduate student, 24',
-        quote: 'He talked me out of veneers. I did not expect that from a cosmetic dentist.',
-      },
-    ] satisfies Transformation[],
-  },
 
   /** VERIFY — reproduce reviews verbatim, with permission, or link to source. */
   testimonials: [
