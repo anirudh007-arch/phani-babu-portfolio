@@ -98,6 +98,12 @@ item on this list — re-review them before shipping any before/after imagery.
 - [ ] `clinic.technology` — confirm the clinic actually has each listed item
       (CBCT, intraoral scanner, CAD/CAM mill, surgical microscope, soft-tissue
       laser, Class B autoclaves)
+- [ ] `team.members` — Dr. Vimalageetha's credentials (BDS, MDS) and listed
+      specialties (Pediatric Dentist, Dental Implantologist, Laser Gum
+      Specialist, Cosmetic Dentist, Root Canal Specialist) were supplied
+      directly and should still be checked against her actual registration
+      before publishing. The section heading/lead copy is drafted and can be
+      replaced with her own bio if she wants one.
 
 ## 7. Assets
 
@@ -105,8 +111,8 @@ See `public/images/README.md` for the full file table.
 
 - [ ] Hero portrait (this is the LCP image — keep it under ~180KB)
 - [ ] About portrait
+- [ ] Dr. Vimalageetha's portrait for the Team section
 - [ ] Six clinic space photographs
-- [ ] Twelve gallery images (six before/after pairs)
 - [ ] `og-image.jpg` at 1200×630
 - [ ] `apple-touch-icon.png` at 180×180, then re-enable its link in `index.html`
 

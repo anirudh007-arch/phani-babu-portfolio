@@ -12,6 +12,7 @@ import { Cursor } from '@/components/ui/Cursor';
 import { Hero } from '@/sections/Hero';
 import { Credentials } from '@/sections/Credentials';
 import { About } from '@/sections/About';
+import { Team } from '@/sections/Team';
 import { Expertise } from '@/sections/Expertise';
 import { Testimonials } from '@/sections/Testimonials';
 import { Clinic } from '@/sections/Clinic';
@@ -49,6 +50,7 @@ export default function App() {
         <Hero />
         <Credentials />
         <About />
+        <Team />
         <Expertise />
         <Testimonials />
         <Clinic />

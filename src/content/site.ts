@@ -45,6 +45,15 @@ export type IconName =
   | 'align-center-horizontal'
   | 'shield-check';
 
+export type TeamMember = {
+  id: string;
+  name: string;
+  credentials: string;
+  specialties: string[];
+  portrait: string;
+  portraitAlt: string;
+};
+
 export type Testimonial = {
   id: string;
   name: string;
@@ -76,6 +85,7 @@ export const site = {
 
   nav: [
     { label: 'About', href: '#about' },
+    { label: 'Team', href: '#team' },
     { label: 'Expertise', href: '#expertise' },
     { label: 'Testimonials', href: '#testimonials' },
     { label: 'Clinic', href: '#clinic' },
@@ -122,6 +132,29 @@ export const site = {
       { title: 'Price quoted once', body: 'A written plan with a fixed cost, before any treatment begins. No revisions mid-procedure.' },
       { title: 'Answer the call', body: 'Post-operative concerns reach the treating dentist directly, not a reception desk.' },
     ],
+  },
+
+  /** VERIFY — bio copy is a placeholder; confirm wording and add a portrait. */
+  team: {
+    eyebrow: 'The Team',
+    heading: 'A second set of expert hands.',
+    lead: 'Every patient at Denteazee has access to more than one specialist perspective.',
+    members: [
+      {
+        id: 'vimalageetha',
+        name: 'Dr. Vimalageetha',
+        credentials: 'BDS, MDS',
+        specialties: [
+          'Pediatric Dentist',
+          'Dental Implantologist',
+          'Laser Gum Specialist',
+          'Cosmetic Dentist',
+          'Root Canal Specialist',
+        ],
+        portrait: '/images/dr-vimalageetha-portrait.jpg',
+        portraitAlt: 'Dr. Vimalageetha, BDS, MDS, at Denteazee Dental Clinic',
+      },
+    ] satisfies TeamMember[],
   },
 
   expertise: [

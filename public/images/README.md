@@ -11,6 +11,7 @@ presentable while photography is being produced.
 | --- | --- | --- |
 | `dr-phani-babu-portrait.jpg` | 4:5 | Hero portrait. This is the **LCP image** — keep it under ~180KB. |
 | `dr-phani-babu-clinic.jpg` | 4:5 | About section, working portrait. |
+| `dr-vimalageetha-portrait.jpg` | 4:5 | Team section portrait for Dr. Vimalageetha. |
 | `clinic/reception.jpg` | 4:3 | |
 | `clinic/consultation.jpg` | 4:3 | |
 | `clinic/operatory.jpg` | 4:3 | |
